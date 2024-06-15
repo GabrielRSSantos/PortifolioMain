@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+h1{
+    padding: 1rem 1rem;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+
+h2{
+    padding: 1rem 1rem;
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+
+p{
+    padding: 1rem 1rem;
+    font-size: 32px;
+    font-weight: medium;
+    font-family: "Inter", sans-serif;
+}
+
+img{
+    @media (max-width: 768px){
+    }
+}

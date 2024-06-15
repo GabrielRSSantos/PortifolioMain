@@ -11,19 +11,19 @@ export default function Footer() {
             <div style={{ display: 'flex', justifyContent: 'space-between', width: '20vh' }}>
 
                 <a >
-                    <Button inputColor="green">
+                    <Button inputcolor="green">
                         <IoLogoWhatsapp size={50} color="white" />
                     </Button>
                 </a>
 
                 <a>
-                    <Button inputColor="red">
+                    <Button inputcolor="red">
                         <BiLogoGmail size={50} color="white" />
                     </Button>
                 </a>
 
                 <a target="_blank" href="https://linkedin.com/in/gabriel-santos-90a16275">
-                    <Button inputColor="blue">
+                    <Button inputcolor="blue">
                         <FaLinkedin size={50} color="white"/>
                     </Button>
                 </a>

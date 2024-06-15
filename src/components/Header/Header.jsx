@@ -12,10 +12,10 @@ export default function Header() {
                 <a href="/">
                     <h1>Sobre</h1>
                 </a>
-                <a href="habilidade">
+                <a href="/PortifolioMain/habilidade">
                     <h1>Habilidades</h1>
                 </a>
-                <a href="contato">
+                <a href="/PortifolioMain/contato">
                     <h1>Contato</h1>
                 </a>
             </div>

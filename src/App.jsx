@@ -9,9 +9,9 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Sobre />} />
-        <Route path="habilidade" element={<Habilidades />} />
-        <Route path="contato" element={<Contato />} />
+        <Route path="/PortifolioMain" element={<Sobre />} />
+        <Route path="PortifolioMain/habilidade" element={<Habilidades />} />
+        <Route path="PortifolioMain/contato" element={<Contato />} />
       </Routes>
     </BrowserRouter>
   )

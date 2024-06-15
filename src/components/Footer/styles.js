@@ -18,6 +18,6 @@ border: 1px solid gray;
 border-radius: 50px;
 cursor: pointer;
 &:hover {
-    background-color: ${(props) => props.inputColor};
+    background-color: ${(props) => props.inputcolor};
 }
 `;

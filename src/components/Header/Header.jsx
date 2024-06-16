@@ -1,19 +1,26 @@
+import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Header.css";
 
 export default function Header() {
+    const navigate = useNavigate();
+
+    function navegarPara(rota) {
+        navigate(rota);
+    }
 
     return (
         <header>
             <div className="navigation">
-                <a href="/">
+                <button onClick={() => navegarPara("/")}>
                     <h1>Sobre</h1>
-                </a>
-                <a href="/habilidade">
+                </button>
+                <button onClick={() => navegarPara("/habilidades")}>
                     <h1>Habilidades</h1>
-                </a>
-                <a href="/contato">
+                </button>
+                <button onClick={() => navegarPara("/contato")}>
                     <h1>Contato</h1>
-                </a>
+                </button>
             </div>
         </header>
     )

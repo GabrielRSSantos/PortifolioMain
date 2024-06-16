@@ -6,7 +6,7 @@ export default function Sobre() {
     return (
         <Container>
             <Left>
-                    <h1>Olá, Bem vindo(a)</h1>
+                    <h1 style={{fontSize:'64px'}}>Olá, Bem vindo(a)</h1>
 
                     <h2>
                         Meu nome é Gabriel, sou desenvolvedor front-end e estou sempre em busca de novos desafios.
@@ -30,9 +30,8 @@ export default function Sobre() {
             </Left>
 
             <Right>
-                {/* <Slides /> */}
                 <ImageContainer >
-                    <img style={{ objectFit: 'cover', width: '800px', height: '950px' }} src={foto} />
+                    <img style={{ objectFit: 'cover', width: '500px', height: '650px' }} src={foto} />
                 </ImageContainer>
             </Right>
         </Container>

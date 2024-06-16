@@ -5,7 +5,7 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
-width: 70%;
+width: 100%;
 `;
 
 export const Formdiv = styled.div`

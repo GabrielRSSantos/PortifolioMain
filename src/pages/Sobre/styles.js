@@ -27,13 +27,13 @@ align-items: center;
 `;
 
 export const ImageContainer = styled.div`
-width: '1400px';
-height: '700px';
-display: 'flex';
-justify-content: 'center';
-align-items: 'flex-end';
-borderRadius: '40px';
-backgroundColor: '#d3d3d3';
+width: 700px;
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+border-radius: 40px;
+background-color: #dbdbdb;
 @media (max-width: 768px) {
 }
 `;

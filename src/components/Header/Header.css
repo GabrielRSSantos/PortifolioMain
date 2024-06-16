@@ -17,6 +17,15 @@ h1{
     font-weight: bold;
 }
 
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    &:hover{
+        color: gray;
+    }
+}
+
 .navigation{
     display: flex;
     align-items: center;

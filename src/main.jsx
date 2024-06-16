@@ -7,10 +7,6 @@ import Footer from './components/Footer/Footer.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='full-heigth'>
-      <Header />
       <App />
-      <Footer />
-    </div>
   </React.StrictMode>,
 )

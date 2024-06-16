@@ -32,7 +32,7 @@ export default function Sobre() {
             <Right>
                 {/* <Slides /> */}
                 <ImageContainer >
-                    <img style={{ objectFit: 'cover', width: '800px', height: '950px' }} src={foto} />
+                    <img style={{ objectFit: 'cover', width: '500px', height: '500px' }} src={foto} />
                 </ImageContainer>
             </Right>
         </Container>

@@ -6,7 +6,7 @@ export default function Sobre() {
     return (
         <Container>
             <Left>
-                    <h1>Olá, Bem vindo(a) ao meu site.</h1>
+                    <h1>Olá, Bem vindo(a)</h1>
 
                     <h2>
                         Meu nome é Gabriel, sou desenvolvedor front-end e estou sempre em busca de novos desafios.

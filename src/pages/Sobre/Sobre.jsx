@@ -1,5 +1,6 @@
 import { Container, ImageContainer, Left, Right } from './styles';
 import './Sobre.css';
+import foto from '../../assets/Imagem1_Semfundo.png';
 
 export default function Sobre() {
     return (
@@ -31,7 +32,7 @@ export default function Sobre() {
             <Right>
                 {/* <Slides /> */}
                 <ImageContainer >
-                    <img style={{ objectFit: 'cover', width: '800px', height: '950px' }} src={"PortifolioMain/src/assets/Imagem1_Semfundo.png"} />
+                    <img style={{ objectFit: 'cover', width: '800px', height: '950px' }} src={foto} />
                 </ImageContainer>
             </Right>
         </Container>

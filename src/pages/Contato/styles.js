@@ -3,10 +3,9 @@ import styled from 'styled-components';
 export const Container = styled.div`
 display: flex;
 flex-direction: column;
-justify-content: space-evenly;
+justify-content: space-between;
 align-items: center;
 width: 70%;
-height: 100%;
 `;
 
 export const Formdiv = styled.div`
@@ -22,7 +21,6 @@ padding: 2rem 2rem 1rem 0rem;
 `;
 
 export const Input = styled.input`
-height: 34px;
 font-size: 24px;
 padding: 0.5rem;
 border-radius: 10px;
@@ -35,7 +33,7 @@ display: flex;
 justify-content: center;
 padding: 1rem;
 background-color: black;
-width: 70%;
+width: 100%;
 border-radius: 25px;
 cursor: pointer;
 &:hover {

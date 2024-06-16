@@ -8,23 +8,23 @@ export default function Footer() {
 
     return (
         <FooterComponent>
-            <div style={{ display: 'flex', justifyContent: 'space-between', width: '20vh' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
 
-                <a >
+                <a style={{padding:'0.5rem'}}>
                     <Button inputcolor="green">
-                        <IoLogoWhatsapp size={50} color="white" />
+                        <IoLogoWhatsapp size={40} color="white" />
                     </Button>
                 </a>
 
-                <a>
+                <a style={{padding:'0.5rem'}}>
                     <Button inputcolor="red">
-                        <BiLogoGmail size={50} color="white" />
+                        <BiLogoGmail size={40} color="white" />
                     </Button>
                 </a>
 
-                <a target="_blank" href="https://linkedin.com/in/gabriel-santos-90a16275">
+                <a style={{padding:'0.5rem'}} target="_blank" href="https://linkedin.com/in/gabriel-santos-90a16275">
                     <Button inputcolor="blue">
-                        <FaLinkedin size={50} color="white"/>
+                        <FaLinkedin size={40} color="white"/>
                     </Button>
                 </a>
 

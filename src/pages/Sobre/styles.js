@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 display: flex;
-height: 100vh;
 background-color: #F8F8F8;
 @media (max-width: 768px) {
     flex-wrap: wrap-reverse;
@@ -14,7 +13,7 @@ export const Left = styled.div`
 width: 50%;
 display: flex;
 flex-direction: column;
-padding: 10rem 10rem;
+padding: 5rem 5rem;
 text-align: justify;
 `;
 
